@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Splash Screen -->
+    <string name="app_name">RemConn</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_image_content_description">No description</string>
+    <string name="loading">loading &#8230;</string>
+
+    <!-- Network Error -->
+    <string name="no_connectivity_header">Network Error</string>
+    <string name="no_connectivity_message">No Wifi or Mobile Network Access.</string>
+
+    <!-- Navigation -->
+    <string name="sessions">Sessions</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="new_session">New Session</string>
+    <string name="about">About</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <!-- Menu Sessions Menu-->
+    <string name="add">add</string>
+    <string name="sync">sync</string>
+    <string name="title_activity_session_settings">SessionSettingsActivity</string>
+
+    <!-- Menu Session Settings Menuu -->
+    <string name="done">done</string>
+    <string name="back">back</string>
+
+    <!-- Session Settings  -->
+    <string name="general">General</string>
+    <string name="general_host">Host:</string>
+    <string name="general_port">Port:</string>
+    <string name="general_type">Type: </string>
+    <string name="general_user">User: </string>
+    <string name="general_password">Password:</string>
+
+    <string name="ftp">FTP</string>
+    <string name="sftp">SFTP</string>
+    <string-array name="connection_type" >
+        <item name="iftp">@string/ftp</item>
+        <item name="isftp">@string/sftp</item>
+    </string-array>
+
+
+    <string name="environment">Environment</string>
+    <string name="remote_dir">Remote Directory:</string>
+    <string name="local_dir">Local Directory:</string>
+    <string name="save_deleted_files">Save Deleted Files:</string>
+    <string name="save_overwritten_files">Save Overwritten Files:</string>
+    <string name="recycle_bin">Recycle Bin:</string>
+
+    <string name="connection">Connection</string>
+    <string name="timeout">Time Out:</string>
+    <string name="seconds">0 minutes</string>
+    <string name="keep_alive">Keep Alive:</string>
+
+    <string name="ssh">SSH</string>
+    <string name="ssh_key"> SSH Key:</string>
+    <string name="ssh_passphrase"> Passphrase:</string>
+
+    <string name="synchronisation">Synchronisation</string>
+    <string name="turn_on">Turn On:</string>
+    <string name="master">Master:</string>
+    <string-array name="master_machine">
+        <item name="local">Local</item>
+        <item name="remote">Remote</item>
+    </string-array>
+    <!--string name="local_directory">Local Directory:</string>
+    <string name="remote_directory">Remote Directory:</string-->
+    <string name="recursive">Recursive:</string>
+    <string name="mobile_network">Mobile Network:</string>
+    <string name="schedule">Schedule:</string>
+
+    <string name="monday">M</string>
+    <string name="tuesday">T</string>
+    <string name="wednesday">W</string>
+    <string name="thursday">T</string>
+    <string name="friday">F</string>
+    <string name="saturday">S</string>
+    <string name="sunday">S</string>
+
+    <string name="every_hour">Every Hour</string>
+    <string name="every_half">Every Half Hour</string>
+    <string name="every_quarter">Every Quarter Hour</string>
+    <string name="only_at">Only at...</string>
+
+    <string-array name="schedule_times">
+        <item>@string/every_hour</item>
+        <item>@string/every_half</item>
+        <item>@string/every_quarter</item>
+        <item>@string/only_at</item>
+    </string-array>
+
+    <string name="start_session">Start Session</string>
+    <string name="title_activity_file_system">FileSystemActivity</string>
+
+    <string name="upload">Upload</string>
+    <string name="download">Download</string>
+    <string name="switch_to_home">Switch To Home</string>
+    <string name="switch_to_remote">Switch To Remote</string>
+    <string name="details">Details</string>
+    <string name="replace">Replace</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="refresh">Refresh</string>
+    <string name="sort">Sort</string>
+    <string name="create_folder">Create Folder</string>
+    <string name="search">Search</string>
+    <string name="title_activity_reports">ReportsActivity</string>
+
+    <string name="expand">expand</string>
+    <string name="contract">contract</string>
+
+    <string name="title_activity_report">Report</string>
+
+    <string name="report">Report</string>
+    <string name="time">Time:</string>
+    <string name="files_uploaded">Files Uploaded</string>
+    <string name="files_downloaded">Files Downloaded</string>
+    <string name="error">Errors</string>
+
+    <string name="preferred_local_directory">Local Directory:</string>
+    <string name="preferred_remote_directory">Remote Directory:</string>
+    <string name="hidden_files">Hidden Files:</string>
+    <string name="delete_reports">Delete Report:</string>
+
+    <string-array name="delete_periods">
+        <item name="weekly">After 1 week</item>
+        <item name="fortnight">After 2 weeks</item>
+        <item name="monthly">After every month</item>
+        <item name="bi-annual">After Every 6 months</item>
+    </string-array>
+    <string name="save">Save</string>
+
+    <string name="about_text">This product is intended to be a easy-to-use solution for connectivity to remote servers. The product is loosely based on the open sourced WinSCP and in the spirit of open sourced applications, RemConn is open sourced as well. Reviews on the play store are monitored heavily and any issues raised will be addressed as soon as possible.  </string>
+    <string name="authors">Authors</string>
+    <string name="authors_value">Esther Onifade</string>
+    <string name="contact">Contact</string>
+    <string name="contact_value">esther.remconn@gmail.com</string>
+    <string name="personal_email">Personal Email</string>
+    <string name="github_repo">Github Repository</string>
+    <string name="github_repo_value">www.github.com/bolanle/remconn</string>
+    
+    <string name="root_remote">Remote Server</string>
+
+    <string name="keep_alive_no_time_out"> Are you sure? </string>
+    <string name="keep_alive_no_time_out_mssg">You cannot maintain a connectivity (keep alive) and time out too. Want to continue? </string>
+
+    <string name="error_not_valid_host"> Error </string>
+    <string name="error_not_valid_host_mssg">Host Name Is Invalid. Proper format can be xxx.yyy.zzz </string>
+
+    <string name="error_getting_file_system"> Error </string>
+    <string name="error_getting_file_system_mssg">Cannot retrieve files. This is likely do to a lack of connection to the internet. Other causes
+    include a removal of permission(s) given to the app.</string>
+
+    <string name="error_connecting"> Error </string>
+    <string name="error_connecting_mssg">Cannot connection to ?. Please verify connection details and try again. </string>
+
+    <string name="error_selected"> Error</string>
+    <string name="error_selected_mssg">You have not selected any files; to select long press item. </string>
+
+    <string name="error_core_fields_missing"> Error </string>
+    <string name="error_core_fields_missing_mssg"> You have to input both host (IP addresses are acceptable) and user.</string>
+
+    <string name="error_sync_fields_missing"> Error </string>
+    <string name="error_sync_fields_missing_mssg">If you turn on synchronisation, you need to
+                set all the fields required for this functionality.</string>
+
+    <string name="error_recycle_bin_save">Error </string>
+    <string name="error_recycle_bin_save_mssg"> If you want to save deleted files or save overwritten files, you need to set
+    a (Local) recycle bin path.</string>
+
+    <string name="error_changing_directory"> Error </string>
+    <string name="error_changing_directory_mssg">You cannot change to a directory above the home directory </string>
+
+    <string name="error_transfer"> Error </string>
+    <string name="error_transfer_mssg"> Something went wrong. Check for connectivity if all else fails</string>
+
+    <string name="error_opening_files"> Error </string>
+    <string name="error_opening_files_mssg"> Cannot open file. </string>
+
+    <string name="error_deleting_files"> Error</string>
+    <string name="error_deleting_files_mssg"> Cannot delete file. Common reasons include a lack of access permissions </string>
+
+    <string name="warning_delete_files"> Delete File?</string>
+    <string name="warning_delete_files_mssg"> Are you sure? If you have set a recycle bin, the deleted files will be stored there.
+                </string>
+    <string name="error_multiple_selected_files"> Error </string>
+    <string name="error_multiple_selected_files_mssg"> You cannot rename more than one file at a time. </string>
+
+    <string name="error_cannot_rename"> Error </string>
+    <string name="error_cannot_rename_mssg">The file name provided has been rejected by the file system. Please verify the
+    name and try again</string>
+
+    <string name="error_create_folder"> Error </string>
+    <string name="error_create_folder_mssg">Cannot create new folder. </string>
+
+
+    <string name="no_results"> Results </string>
+    <string name="no_results_mssg">The search yielded no results </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="no_reports">No Reports Yet</string>
+    <string name="no_sessions">No Session Yet</string>
+    
+
+</resources>

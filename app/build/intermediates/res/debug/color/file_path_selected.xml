@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/white" android:state_pressed="true" />
+    <item android:color="@color/primary_dark_material_light" />
+</selector>
+<!-- From: file:/F:/Programming%20Projects/Android%20Projects/RemoteConnection/app/src/main/res/color/file_path_selected.xml -->

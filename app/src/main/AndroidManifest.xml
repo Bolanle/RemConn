@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.bolanleonifade.remoteconnection"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="22" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:minSdkVersion="21" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:minSdkVersion="21" />
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        android:minSdkVersion="21" />
+    <uses-permission
+        android:name="android.androi.READ_EXTERNAL_STORAGE"
+        android:minSdkVersion="21" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".SessionsActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SessionSettingsActivity"
+            android:label="@string/title_activity_session_settings"
+            android:parentActivityName=".SessionsActivity" />
+        <activity
+            android:name=".FileSystemActivity"
+            android:exported="true"
+            android:label="@string/title_activity_file_system"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="me.bolanleonifade.remoteconnection.FileSystemActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReportsActivity"
+            android:label="@string/title_activity_reports" />
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/title_activity_report"
+            android:parentActivityName=".ReportsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ReportsActivity" />
+        </activity>
+
+        <receiver
+            android:name=".SynchronisationReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="me.bolanleonifade.remoteconnection.receiver.sync" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".SynchronisationService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <receiver
+            android:name=".DeletionReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="me.bolanleonifade.remoteconnection.receiver.delete" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".DeletionService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_sessions"
+            android:icon="@drawable/ic_cloud_circle_black"
+            android:title="@string/sessions" />
+        <item
+            android:id="@+id/drawer_reports"
+            android:icon="@drawable/ic_receipt_black"
+            android:title="@string/reports" />
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@drawable/ic_settings_black"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/drawer_about"
+            android:icon="@drawable/ic_help_black"
+            android:title="@string/about" />
+    </group>
+
+
+</menu><!-- From: file:/F:/Programming%20Projects/Android%20Projects/RemoteConnection/app/src/main/res/menu/navigation_drawer.xml -->

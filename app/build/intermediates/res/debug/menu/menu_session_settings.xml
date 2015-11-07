@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="me.bolanleonifade.remoteconnection.SessionSettingsActivity">
+    <!--item android:id="@+id/go_back"
+        android:icon="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+        android:title="@string/back"
+        app:showAsAction="ifRoom"
+        /-->
+
+    <item android:id="@+id/save_session"
+        android:icon="@drawable/ic_done_white"
+        android:title="@string/done"
+        app:showAsAction="ifRoom"
+        />
+    <!-- Settings, should always be in the overflow -->
+</menu>
+<!-- From: file:/F:/Programming%20Projects/Android%20Projects/RemoteConnection/app/src/main/res/menu/menu_session_settings.xml -->

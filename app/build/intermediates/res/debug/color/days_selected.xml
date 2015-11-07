@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/highlighted_text_material_light" android:state_activated="true" />
+    <item android:color="@color/button_material_dark"/>
+</selector>
+<!-- From: file:/F:/Programming%20Projects/Android%20Projects/RemoteConnection/app/src/main/res/color/days_selected.xml -->

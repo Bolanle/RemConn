@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/add_sessions"
+        android:icon="@drawable/ic_add_white"
+        android:title="@string/add"
+        app:showAsAction="ifRoom"
+        />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/sync_sessions"
+        android:title="@string/sync"
+        android:icon="@drawable/ic_sync_white"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/count_delete_sessions"
+        app:showAsAction="ifRoom"
+        android:visible="false" />
+
+    <item android:id="@+id/delete_sessions"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_delete_white"
+        app:showAsAction="ifRoom"
+        android:visible="false" />
+
+    <item android:id="@+id/sync_selected_sessions"
+        android:title="@string/done"
+        android:icon="@drawable/ic_done_white"
+        app:showAsAction="ifRoom"
+        android:visible="false" />
+</menu><!-- From: file:/F:/Programming%20Projects/Android%20Projects/RemoteConnection/app/src/main/res/menu/sessions_menu.xml -->
